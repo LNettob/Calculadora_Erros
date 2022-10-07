@@ -1,3 +1,4 @@
+// lucas netto borges - 10/22 
 //entrada dos numeros onde n é a quantidade de dados obtidos do teste, posteriormente iremos tornar melhor
 a = float(input("Digite 1 numero: "))
 b = float(input("Digite 2 numero: "))
