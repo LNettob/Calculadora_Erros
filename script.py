@@ -1,4 +1,4 @@
-//entrada dos numeros onde n é a quantidade de numeros, posteriormente iremos tornar melhor
+//entrada dos numeros onde n é a quantidade de dados obtidos do teste, posteriormente iremos tornar melhor
 a = float(input("Digite 1 numero: "))
 b = float(input("Digite 2 numero: "))
 n = 2
@@ -16,6 +16,6 @@ erro = desvio / (n**(1/2))
 print ("seu desvio:" ,desvio)
 print ("seu erro estatico:" ,erro)
 
-//calculo do erro total
+//calculo do erro total, 0.05 é o erro instrumental
 erro_t = ((erro**2)+(0.05**2))**(1/2)
 print ("seu erro total: ", erro_t)
